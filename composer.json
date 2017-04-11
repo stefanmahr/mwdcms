@@ -1,0 +1,23 @@
+{
+    "name": "stefanmahr/mwdcms",
+    "description": "CMS Fontend Functions for Modern Web Design CMS",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Mahr",
+            "email": "office@stefanmahr.com"
+        }
+    ],
+	"autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-4": {
+            "Stefanmahr\\Mwdcms\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.5.0"
+	}
+}
